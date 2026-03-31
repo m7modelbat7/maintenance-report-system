@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Build output
+dist/
+build/
+frontend/dist/
+backend/dist/
+
+# Vite local files
+frontend/.vite/
+frontend/.vite-temp/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+frontend/.env
+frontend/.env.local
+backend/.env
+backend/.env.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local database and temp data
+backend/data/*.db
+backend/data/*.db-journal
+backend/data/*.sqlite
+backend/data/*.sqlite3
+backend/data/*.txt
+
+# Coverage and test artifacts
+coverage/
+.nyc_output/
